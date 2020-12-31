@@ -4,7 +4,8 @@
 // that code so it'll be compiled.
 
 require("@rails/ujs").start()
-require("turbolinks").start()
+// 画面速度の表示は向上するがHTML要素だけを読み取って表示するためイベント発火しない恐れがあることからコメントアウト
+// require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 
