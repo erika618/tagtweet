@@ -60,10 +60,14 @@
       to see more useful Rails Best Practices.
     </p>
     <p>
-        Found 1 warnings.
+        Found 2 warnings.
     </p>
     <table>
           <tr>
+              <td>
+                <input type="checkbox" class="error-type" id="RemoveEmptyHelpersReview" value="RemoveEmptyHelpersReview"
+                />&nbsp;<label for="RemoveEmptyHelpersReview">Remove Empty Helpers</label>
+              </td>
               <td>
                 <input type="checkbox" class="error-type" id="RemoveTrailingWhitespaceCheck" value="RemoveTrailingWhitespaceCheck"
                 />&nbsp;<label for="RemoveTrailingWhitespaceCheck">Remove Trailing Whitespace</label>
@@ -85,6 +89,15 @@
         </tr>
       </thead>
       <tbody>
+          <tr class="RemoveEmptyHelpersReview">
+            <td class='filename'>
+                app/helpers/tweets_helper.rb
+            </td>
+            <td class='line'>1</td>
+            <td class='message'>
+              <a href='https://rails-bestpractices.com/posts/2011/04/09/remove-empty-helpers/' target='_blank'>remove empty helpers</a>
+            </td>
+          </tr>
           <tr class="RemoveTrailingWhitespaceCheck">
             <td class='filename'>
                 config/environments/test.rb
